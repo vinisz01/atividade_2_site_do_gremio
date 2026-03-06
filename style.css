@@ -65,26 +65,60 @@ footer {
     text-align: center;
     border-bottom: 4px solid rgb(7, 49, 98);
 }
-.cards-nomes h2{
-    text-align: center;
+
     
-}
+
 .cards-nomes{
     margin: 40px;
     padding: 20px;
     border-radius: 40px;
     background: rgb(72, 155, 243);
     color: black;
-
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    text-align: center;
 
 }
 
 
+.card-escalacao{
 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 160px;
+
+}
+.zaga{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.lateral{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.volante{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.meio{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.pontas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.centro-avante{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
 
 .cards{
     width: 10px;
@@ -92,6 +126,8 @@ footer {
     color: black;
     display: flex;
     flex-direction: column;
+    gap: 0px;
+    flex-wrap: wrap;
 }
 
 
